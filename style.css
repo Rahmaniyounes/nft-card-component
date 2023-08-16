@@ -1,0 +1,115 @@
+@font-face {
+    font-family: Outfit;
+    src: url(./font/Outfit/Outfit-VariableFont_wght.ttf);
+}
+
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: #0D1A2D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Outfit;
+
+}
+
+.container {
+    height: 530px;
+    width: 310px;
+    background: #15273F;
+    border-radius: 15px;
+}
+
+p {
+    color: #6985AD;
+    margin-right: 5px;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+header img {
+    height: 270px;
+    width: 270px;
+    border-radius: 15px;
+}
+
+.para {
+    position: relative;
+    left: 18px;
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: -30px;
+}
+
+.stat-p {
+    position: relative;
+    right: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.stat img {
+    margin-right: 5px;
+}
+
+
+
+span {
+    color: #02FDF8;
+    position: relative;
+    left: 18px;
+    display: flex;
+    align-items: center;
+}
+
+
+h3 {
+    position: relative;
+    left: 18px;
+}
+
+h3,
+.name {
+    color: white;
+    margin-left: 5px;
+}
+
+.trait {
+    height: 0.09999px;
+    background: #6985AD;
+    width: 270px;
+    margin-left: 20px;
+    position: relative;
+    top: 50px;
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: -70px;
+    left: -18px;
+
+}
+
+footer img {
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
